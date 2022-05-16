@@ -1,0 +1,111 @@
+
+body{
+	
+	
+}
+
+#bgloguin{
+	background-image: url('../Imagem/Fundo/bgloguin2.png');
+	background-size: 100%;
+}
+
+.tableteste{
+	border: 10px;
+	border-style: solid;
+	border-color: red;
+}
+
+.tdteste{
+	border: 20px;
+	border-color: red;
+}
+
+#trteste{
+	border: 20px;
+	border-color: red;
+}
+
+#titulologuin{
+	text-align: center;
+	font-size: 400%;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: #fff;
+}
+
+/* #arealoguin{
+	position: relative;
+	margin: 0 auto;
+	margin-left: 50%;
+	display: flex;
+	border-color: red;
+	border: 20px;
+} */
+#arealoguin{
+	/* display: flex;
+	justify-content: center; */
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+#fmloguin{
+	text-align: left;
+	font-size: 200%;
+}
+
+#cte-mail{
+	text-align: center;
+	position: relative;
+	font-size: 100%;
+}
+
+#ctsenha{
+	text-align: center;
+	position: relative;
+	font-size: 100%;
+
+	}
+
+/* #btenviar{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	font-size: 100%;
+	top: 200%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+} */
+
+.item{
+	
+	max-height: 100px;
+	/* display: block; */
+	/* border: solid 2px red; */
+
+}
+
+.botao{
+
+	font-size:20pt;
+	font-family:Arial;
+	width:50%;
+	height:100%;
+	border-width:1px;
+	color:#ffffff;
+	border-color:#74b807;
+	font-weight:bold;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	text-shadow:inset 0px 1px 0px #528009;
+	background:linear-gradient(#89c403, #77a809);
+}
+
+.botao:hover{
+	 background: linear-gradient(#658C0D, #496900);
+}
